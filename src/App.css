@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+.header__text{
+    display: flex;
+    flex-direction: row;
+    gap: .75rem;
+}
+.header__title{
+    font-size: 1.25rem;
+}
+.notif-number{
+    width: 35px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--clr-primary-blue);
+    color: var(--clr-neutral-white);
+}
+.read-button{
+    font-size: .95rem;
+    font-weight: var(--fw-regular);
+    color: var(--clr-neutral-dark-grayish-blue);
+}
+.read-button:hover{
+    cursor: pointer;
+    color: var(--clr-primary-blue);
+}
+.notifications-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+}
